@@ -77,7 +77,9 @@ class Quiz {
       }else{
         fill("red");
        }
-       text(allContestants[plr].name + ":" +allContestants[plr].answer,270,270);
+       display_position+=20;
+       textSize(15);
+       text(allContestants[plr].name + ":" +allContestants[plr].answer,270,display_position);
       // text(allContestants[plr].name + ":" +allContestants[plr].answer,300,300);
      /* for(plr in allContestants){
       if (plr === "player" + player.index)
